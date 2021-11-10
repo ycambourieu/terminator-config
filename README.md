@@ -1,2 +1,2 @@
 # terminator_config
-terminator config file
+Terminator config file to place in ~/.config/terminator/config
