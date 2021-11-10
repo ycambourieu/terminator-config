@@ -1,0 +1,67 @@
+[global_config]
+  title_hide_sizetext = True
+  title_transmit_bg_color = "#729fcf"
+  inactive_color_offset = 0.9027777777777778
+[keybindings]
+[profiles]
+  [[default]]
+    background_darkness = 0.87
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 50000
+  [[PURPLE]]
+    background_color = "#2a1c37"
+    background_darkness = 0.87
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 50000
+  [[BLUE]]
+    background_color = "#1e3c55"
+    background_darkness = 0.87
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+  [[RED]]
+    background_color = "#622121"
+    background_darkness = 0.87
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 50000
+  [[GREEN]]
+    background_color = "#125114"
+    background_darkness = 0.87
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 50000
+  [[YELLOW]]
+    background_color = "#514c0f"
+    background_darkness = 0.87
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 50000
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
